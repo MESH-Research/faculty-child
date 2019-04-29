@@ -16,7 +16,7 @@
 					<?php get_template_part( 'template-single-post' ); ?>
 
 				</div>
-
+				<?php get_footer(); ?>
 
 			</div>
 
@@ -32,7 +32,7 @@
 					<?php get_template_part( 'loop' ); ?>
 	        	</div>
 	        </div>
-		    <?php get_footer(); ?>
+
 		</div>
 	    <div id="overlay"></div>
 	</div>
