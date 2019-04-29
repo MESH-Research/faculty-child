@@ -64,9 +64,10 @@
                 }
                 wp_reset_query();
 
-                ?>               
+                ?>
+	            <?php get_footer(); ?>
             </div>
-	        <?php get_footer(); ?>
+
         </div>
 
         <div id="blog-side">
